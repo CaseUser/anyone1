@@ -1,0 +1,71 @@
+<project name="JunitTest" default="test2" basedir=".">
+   <property name="testdir" location="test" />
+   <property name="srcdir" location="src" />
+   <property name="reportdir" location="report" />
+   <property name="builddir" location="bin" /> 
+ <!--<property name="builddir" location="bin" /> -->
+   <property name="full-compile" value="true" />
+  <!-- <path id="classpath.base"/> -->
+   <path id="classpath.test">
+
+   <pathelement location="/lib/junit.jar" />
+   <pathelement location="/lib/org.hamcrest.core_1.3.jar" /> 
+   	
+   	
+      <pathelement location="${builddir}" />
+      <pathelement location="${srcdir}" />
+      <pathelement location="${testdir}" />
+   	  <pathelement location="${reportdir}" />
+    <!--  <path refid="classpath.base" /> -->
+   </path>
+
+  <target name="clean" >
+      <delete verbose="${full-compile}">
+         <fileset dir="${builddir}" includes="**/*.class" />
+      </delete> 
+   </target>
+   <target name="compile">
+      <javac srcdir="${srcdir}" destdir="${builddir}" 
+         verbose="${full-compile}">
+         <classpath refid="classpath.test"/>
+      </javac>
+  <javac srcdir="${testdir}" destdir="${builddir}" 
+         verbose="${full-compile}">
+         <classpath refid="classpath.test"/>
+      </javac>
+   </target>
+
+   <target name="test" depends="compile">
+      <junit>
+         <classpath refid="classpath.test" />
+      	<classpath location="lib/junit.jar" />
+        <classpath location="lib/org.hamcrest.core_1.3.jar" />
+
+        <!-- <formatter type="brief" usefile="false" /> -->
+         <formatter type="brief" usefile="false" /> 
+         <formatter type="xml" />
+
+         <batchtest todir="${reportdir}">
+            <fileset dir="${testdir}">
+                <include name="**/*Test.java"/>
+            <!--    <include name="TestMessageUtil_1.java"/> -->
+            </fileset>
+         </batchtest>
+    </junit>
+ </target>
+
+   <target name="test2" depends="test" description="Create a report for the rest result">
+        
+        <junitreport todir="${reportdir}">
+            <fileset dir="${reportdir}">
+                <include name="*.xml"/>
+            </fileset>
+            <report format="frames" todir="${reportdir}"/>
+        </junitreport>
+    </target>
+
+
+       <!--  <test name="TestMessageUtil" /> -->
+      
+   
+</project>
