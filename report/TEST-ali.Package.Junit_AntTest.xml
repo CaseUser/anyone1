@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="HomeHp" name="ali.Package.Junit_AntTest" skipped="0" tests="4" time="0.063" timestamp="2015-11-27T16:12:25">
+<testsuite errors="0" failures="1" hostname="HomeHp" name="ali.Package.Junit_AntTest" skipped="0" tests="4" time="0.047" timestamp="2015-11-27T21:17:49">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -12,11 +12,11 @@
     <property name="ant.home" value="C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502" />
     <property name="java.runtime.version" value="1.7.0_71-b14" />
     <property name="user.name" value="Mukhter" />
-    <property name="ant.file.JunitTest" value="C:\lunadev\Ant\anyone1\build.xml" />
+    <property name="ant.file.JunitTest" value="C:\GitDir\GitWork\anyone1\build.xml" />
     <property name="user.language" value="en" />
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_71\jre\bin" />
     <property name="ant.project.default-target" value="test2" />
-    <property name="srcdir" value="C:\lunadev\Ant\anyone1\src" />
+    <property name="srcdir" value="C:\GitDir\GitWork\anyone1\src" />
     <property name="ant.project.name" value="JunitTest" />
     <property name="java.version" value="1.7.0_71" />
     <property name="user.timezone" value="" />
@@ -31,7 +31,7 @@
     <property name="user.country" value="US" />
     <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_71\jre" />
     <property name="java.vm.info" value="mixed mode" />
-    <property name="ant.file" value="C:\lunadev\Ant\anyone1\build.xml" />
+    <property name="ant.file" value="C:\GitDir\GitWork\anyone1\build.xml" />
     <property name="os.version" value="6.2" />
     <property name="ant.file.type.JunitTest" value="file" />
     <property name="path.separator" value=";" />
@@ -47,14 +47,14 @@
     <property name="java.specification.vendor" value="Oracle Corporation" />
     <property name="java.library.path" value="C:\Users\Mukhter\Downloads\eclipse;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.7.0_71/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_71/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_71/bin/../jre/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Java\jdk1.7.0_71\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\ibm\gsk8\lib64;C:\Program Files (x86)\ibm\gsk8\lib;C:\DB2EC\IBM\SQLLIB\BIN;C:\DB2EC\IBM\SQLLIB\FUNCTION;C:\DB2EC\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files (x86)\HP\LoadRunner\strawberry-perl\perl\bin;C:\JBOS\jboss-as-7.1.1.Final\bin;C:\apache-maven\apache-maven-3.3.3\bin;C:\Program Files (x86)\Skype\Phone\;C:\TortoiseSVN\bin;C:\ApacheAnt\org.apache.ant_1.9.2.v201404171502\bin;C:\VisualSVNServer\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Java\jdk1.7.0_71\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\ibm\gsk8\lib64;C:\Program Files (x86)\ibm\gsk8\lib;C:\DB2EC\IBM\SQLLIB\BIN;C:\DB2EC\IBM\SQLLIB\FUNCTION;C:\DB2EC\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files (x86)\HP\LoadRunner\strawberry-perl\perl\bin;C:\JBOS\jboss-as-7.1.1.Final\bin;C:\apache-maven\apache-maven-3.3.3\bin;C:\Program Files (x86)\Skype\Phone\;C:\Users\Mukhter\Downloads\eclipse;;.;C:\Users\Mukhter\Downloads\eclipse\configuration\org.eclipse.osgi\766\0\.cp" />
     <property name="java.vendor.url" value="http://java.oracle.com/" />
-    <property name="testdir" value="C:\lunadev\Ant\anyone1\test" />
+    <property name="testdir" value="C:\GitDir\GitWork\anyone1\test" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1448640743024 -Declipse.connect.port=64977 -Declipse.pdebuild.home=/C:/Users/Mukhter/Downloads/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/./ -Declipse.pdebuild.scripts=/C:/Users/Mukhter/Downloads/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts/ -Declipse.pdebuild.templates=/C:/Users/Mukhter/Downloads/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates/ -Dant.home=C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\lunadev\Ant\anyone1\build.xml" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1448659067493 -Declipse.connect.port=5006 -Declipse.pdebuild.home=/C:/Users/Mukhter/Downloads/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/./ -Declipse.pdebuild.scripts=/C:/Users/Mukhter/Downloads/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts/ -Declipse.pdebuild.templates=/C:/Users/Mukhter/Downloads/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates/ -Dant.home=C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\GitDir\GitWork\anyone1\build.xml" />
     <property name="java.class.path" value="C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-antlr.jar;C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-apache-bcel.jar;C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-apache-bsf.jar;C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-apache-log4j.jar;C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-apache-oro.jar;C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-apache-regexp.jar;C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-apache-resolver.jar;C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-apache-xalan2.jar;C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-commons-logging.jar;C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-commons-net.jar;C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-jai.jar;C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-javamail.jar;C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-jdepend.jar;C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-jmf.jar;C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-jsch.jar;C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-junit.jar;C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-junit4.jar;C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-launcher.jar;C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-netrexx.jar;C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-swing.jar;C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-testutil.jar;C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant.jar;C:\Users\Mukhter\Downloads\eclipse\configuration\org.eclipse.osgi\56\0\.cp\lib\antdebug.jar;C:\Users\Mukhter\Downloads\eclipse\configuration\org.eclipse.osgi\56\0\.cp\lib\remote.jar;C:\Users\Mukhter\Downloads\eclipse\configuration\org.eclipse.osgi\57\0\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.7.0_71\lib\tools.jar;C:\Users\Mukhter\Downloads\eclipse\plugins\org.eclipse.swt.win32.win32.x86_64_3.103.2.v20150203-1351.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
-    <property name="builddir" value="C:\lunadev\Ant\anyone1\bin" />
-    <property name="reportdir" value="C:\lunadev\Ant\anyone1\report" />
+    <property name="builddir" value="C:\GitDir\GitWork\anyone1\bin" />
+    <property name="reportdir" value="C:\GitDir\GitWork\anyone1\report" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="java.vm.specification.version" value="1.7" />
     <property name="sun.cpu.endian" value="little" />
@@ -65,10 +65,10 @@
     <property name="os.arch" value="amd64" />
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_71\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
-    <property name="user.dir" value="C:\lunadev\Ant\anyone1" />
+    <property name="user.dir" value="C:\GitDir\GitWork\anyone1" />
     <property name="line.separator" value="&#xd;&#xa;" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
-    <property name="basedir" value="C:\lunadev\Ant\anyone1" />
+    <property name="basedir" value="C:\GitDir\GitWork\anyone1" />
     <property name="ant.java.version" value="1.7" />
     <property name="ant.core.lib" value="C:\Users\Mukhter\Downloads\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant.jar" />
     <property name="file.encoding" value="Cp1252" />
@@ -79,7 +79,7 @@
   <testcase classname="ali.Package.Junit_AntTest" name="testConcatenate" time="0.0" />
   <testcase classname="ali.Package.Junit_AntTest" name="testConcatenate1" time="0.0" />
   <testcase classname="ali.Package.Junit_AntTest" name="testConcatenate2" time="0.0" />
-  <testcase classname="ali.Package.Junit_AntTest" name="testConcatenate3" time="0.016">
+  <testcase classname="ali.Package.Junit_AntTest" name="testConcatenate3" time="0.015">
     <failure message="expected:&lt;one[1]two&gt; but was:&lt;one[2]two&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;one[1]two&gt; but was:&lt;one[2]two&gt;
 	at ali.Package.Junit_AntTest.testConcatenate3(Junit_AntTest.java:47)
 	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
